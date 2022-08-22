@@ -200,6 +200,7 @@
     -moz-text-fill-color: transparent;
 }
 .hero__sub{
+    padding-top: 0 auto;
     font-size: 50px;
 }
 .hero__sub{
@@ -214,8 +215,9 @@
     -moz-text-fill-color: transparent;
 }
 .hero__desc{
-    font-size: 30px;
+    font-size: 35px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 15px;
     padding-bottom: 30px;
     background: #ECE9E6; 
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
