@@ -195,12 +195,13 @@
 }
 .main__container{
     background-image: url(c-bg.png);
+    background-size: auto;
     justify-content: center;
     max-width: 1400px;
 }
 .hero{
     background-size: auto;
-    padding: 200px 0;
+    padding: 170px 0;
 }
 .hero__container{
     background: #00000a;
