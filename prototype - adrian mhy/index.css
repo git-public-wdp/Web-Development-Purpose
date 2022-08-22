@@ -106,6 +106,7 @@
     width: 0;
 }
 .content-wrapper .items{
+    margin: 24px;
     width: 260px;
     min-width: 260px;
     height: 330px;
@@ -288,12 +289,32 @@
         max-width: 780px;
     }
     .hero__heading{
-        font-size: 60px;
+        font-size: 40px;
+        font-family: impact;
     }
     .hero__sub{
-        font-size: 40px;
+        font-size: 25px;
     }
     .hero__desc{
-        font-size: 28px;
+        font-size: 18px;
+    }
+    .main__btn{
+        font-size: 20px;
+    }
+    .main{
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .content-wrapper{
+        padding: 10px;
+        max-height: 300px;
+        max-width: 100%;
+        margin-right: 1px;
+    }
+    .content-wrapper .items{
+        max-height: 250px;
+        min-width: 180px;
+        margin: 8px;
     }
 }
