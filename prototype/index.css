@@ -88,6 +88,34 @@
     color: purple;
     transition: all 0.3s ease;
 }
+.main{
+    background: #fff;
+    justify-content: center;
+}
+.content-wrapper{
+    height: 480px;
+    max-height: 480px;
+    width: 100%;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow-x: auto;
+}
+.content-wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.content-wrapper .items{
+    width: 260px;
+    min-width: 260px;
+    height: 330px;
+    max-height: 330px;
+    line-height: 330px;
+    justify-content: center;
+    background: grey;
+    margin-right: 2px;
+    padding-right: 8px;
+}
 @media screen and (max-width: 960px) {
     .navbar__container{
         display: flex;
