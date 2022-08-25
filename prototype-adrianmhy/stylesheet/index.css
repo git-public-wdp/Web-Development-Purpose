@@ -127,43 +127,43 @@
 }
 .trends{
     overflow: hidden;
-    height: 488px;
+    height: 4880px;
     width: 1100px;
     margin-left: 140px;
     margin-top: 20px;
-    justify-content: center;
-    align-items: center;
     background: grey;
 }
-@-webkit-keyframes slider_animation{
-    0% {left:0px;}
-    10% {left:0px;}
-    20% {left:1100px;}
-    30% {left:1100px;}
+@-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1100px;}
+    30% {left: 1100px;}
     40% {left: 2200px;}
     50% {left: 2200px;}
     60% {left: 1100px;}
     70% {left: 1100px;}
     80% {left: 0px;}
     90% {left: 0px;}
-    100% {left:0px;}
+    100% {left: 0px;}
 }
 .trends-table{
     width: 1400x;
-    height: 380px;
+    height: 460px;
     margin: 0 0 0 -2200px;
     position: relative;
-    -webkit-animation-name: slider_animation;
-    -webkit-animation-duration: 60s;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 50s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
+    display: flex;
 }
 .image-banner{
-    height: 380px;
+    height: 460px;
     width: 1100px;
     position: relative;
     float: left;
+    margin-top: 20px;
 }
 @media screen and (max-width: 960px) {
     .navbar__container{
@@ -332,7 +332,7 @@
 }
 @media screen and (max-width: 768px){
     .main__container{
-        background-image: url(m-bg.png);
+        background-image: url(\image\m-bg.png);
         image-orientation: unset;
         justify-content: center;
         max-width: 780px;
