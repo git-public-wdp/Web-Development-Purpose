@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+.header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    background: #BA7BA1;
+    width: 100% auto;
+    height: 76px;
+    justify-content: space-between;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.navigation .menu-bars #bars{
+    font-size: 35px;
+    background: transparent;
+}
+#spacer{
+    font-size: 12px;
+    background: #fff;
+    height: 40px;
+    width: 3px;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-left: 40px;
+    
+}
+.open-chat{
+    justify-content: center;
+    align-items: baseline;
+    width: 30px;
+    height: 30px;
+    opacity: 100%;
+}
+.chat{
+    margin-left: 1008px;
+    list-style: table;
+    text-align: center;
+}
+#p-text{
+    font-size: 15px; 
+    margin-left: 50px;
+    margin-bottom: 7px; 
+    color: #fff;
+}
