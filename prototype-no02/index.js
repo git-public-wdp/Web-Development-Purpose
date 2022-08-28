@@ -9,9 +9,16 @@ menu__open.addEventListener('Click', open__menu);
 
 function openSlideMenu(){
     document.getElementById('navbar-menu').style.width = '300px';
-    document.getElementById('account-data').style.transition = '0.5 ease-out';
+    //document.getElementById('spacer').style.transition = '0.2s';
+    //document.getElementById('spacer').style.marginLeft = '240px';
+    //document.getElementById('search').style.marginLeft = '415px';
 }
 function closeSlideMenu(){
     document.getElementById('navbar-menu').style.width = '0px';
-    document.getElementById('account-data').style.transition = '0.5 ease-in';
+    //document.getElementById('spacer').style.transition = '0s';
+    //document.getElementById('spacer').style.marginLeft = '40px';
+    //document.getElementById('search').style.marginLeft = '615px';
+}
+function showResult(){
+
 }

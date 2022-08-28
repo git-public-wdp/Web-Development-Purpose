@@ -30,7 +30,9 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     margin-left: 40px;
-    
+    transition: 0s;
+    z-index: 1;
+    overflow-x: hidden;
 }
 .open-chat{
     justify-content: center;
@@ -62,10 +64,10 @@
     #e5e5e5 40%, 
     #e5e5e5 40%, 
     #e5e5e5 60%, 
-    #fca331 60%, 
-    #fca331 80%, 
-    #fca331 80%,
-    #fca331 100%
+    #FCA311 60%, 
+    #FCA311 80%, 
+    #FCA311 80%,
+    #FCA311 100%
     );
     width: 0;
     height: 100%;
@@ -103,6 +105,7 @@
     background: white;
     margin-left: 615px;
     border-radius: 6px;
+    position: relative;
 }
 .account-data{
     padding-top: 60px;
