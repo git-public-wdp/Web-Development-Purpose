@@ -9,24 +9,43 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
     </head>
     <body>
-        <!--HOME-PAGE-->
+        <!--HEADER & NAVIGATION-->
         <div class="header" id="header">
             <nav class="navigation" id="navbar">
-                <a href="#" class="menu-bars" id="show-menu">
+                <a href="#" class="menu-bars" id="show-menu" onclick="openSlideMenu()">
                     <i class="fas fa-bars" id="bars"></i>
                 </a>
             </nav>
             <h2 id="spacer">|</h2>
-            <div class="search" id="search"></div>
+            <div class="search" id="search">
+                <p id="sch" style="color: grey; padding-right: 220px;">Cari makanan</p>
+                <a href="#" class="sch-button" id="button" onclick="openSearchBar()">
+                    <img src="" alt="" width="30px" height="30px">
+                </a>
+            </div>
             <div class="chat" id="chat">
                 <a class="open-chat" href="#open-chat">
                     <img src="contact.png" width="40" height="40" style="margin-left: 50px;">
                 </a>
                 <p id="p-text">Hubungi Pengirim</p>
             </div>
-            <div class="search" id="search"></div>
-            <ul class="navbar-menu" id="navbar-menu"></ul>
         </div>
+        <div class="navbar-menu" id="navbar-menu">
+            <a href="#" class="menu-bars" id="close-menu" onclick="closeSlideMenu()">
+                <i class="fas fa-bars" id="bars"></i>
+            </a>
+            <div class="account" id="account">
+                <a href="#account" class="acc-link" id="acc-link">
+                    <img src="" alt="">
+                </a>
+                <ul class="account-data" id="account-data">
+                    <li class="call-data" id="nama">Name</li>
+                    <li class="call-data" id="kelas">Class</li>
+                    <li class="call-data" id="num">Number</li>
+                </ul>
+            </div>
+        </div>
+        <!--HOME-PAGE-->
         <div class="home-page" id="home">
             <div class="home-content" id="content">
                 <div class="promotion" id="promo">
@@ -54,6 +73,7 @@
                 </div>
             </div>
         </div>
+        <script src="index.js"></script>
     </body>
     <footer>
 
