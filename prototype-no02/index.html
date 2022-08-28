@@ -13,14 +13,16 @@
         <div class="header" id="header">
             <nav class="navigation" id="navbar">
                 <a href="#" class="menu-bars" id="show-menu" onclick="openSlideMenu()">
-                    <i class="fas fa-bars" id="bars"></i>
+                    <i class="fas fa-bars" id="bars" style="color: #fff;"></i>
                 </a>
             </nav>
             <h2 id="spacer">|</h2>
             <div class="search" id="search">
-                <p id="sch" style="color: grey; padding-right: 220px;">Cari makanan</p>
-                <a href="#" class="sch-button" id="button" onclick="openSearchBar()">
-                    <img src="" alt="" width="30px" height="30px">
+                <input id="searchInput" placeholder="Cari makanan"  autocomplete="off" name="searchInput" onkeyup="" style="border: none; height: 27px; width: 317px; font-size: 18px;"/>
+                <input type="hidden" name="searchSite" value="1" style="background-color:#000;">
+                <input id="searchButton" type="submit" value=""/>
+                <a href="#searchButton" class="sch-button" id="button" onclick="showResult()">
+                    <img src="search.png" alt="" width="30px" height="30px">
                 </a>
             </div>
             <div class="chat" id="chat">

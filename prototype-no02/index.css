@@ -10,7 +10,7 @@
     justify-content: right;
     align-items: center;
     text-align: right;
-    background: #BA7BA1;
+    background: #230007;
     width: 100% auto;
     height: 76px;
     justify-content: space-between;
@@ -88,4 +88,5 @@
     transition: 0.5 ease;
     background: white;
     margin-left: 700px;
+    border-radius: 6px;
 }
