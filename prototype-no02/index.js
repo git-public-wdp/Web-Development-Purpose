@@ -8,7 +8,7 @@ const open__menu = () => {
 menu__open.addEventListener('Click', open__menu);
 
 function openSlideMenu(){
-    document.getElementById('navbar-menu').style.width = '250px';
+    document.getElementById('navbar-menu').style.width = '300px';
     document.getElementById('account-data').style.transition = '0.5 ease-out';
 }
 function closeSlideMenu(){

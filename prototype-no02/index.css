@@ -45,8 +45,8 @@
     text-align: center;
 }
 #p-text{
-    font-size: 10.5px; 
-    margin-left: 50px;
+    font-size: 9px; 
+    margin-left: 30px;
     margin-bottom: 7px; 
     color: #fff;
 }
@@ -54,8 +54,19 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    text-align: left;
-    background: #e5e5e5;
+    text-align: center;
+    background: linear-gradient(
+    to top,
+    #e5e5e5 20%, 
+    #e5e5e5 20%, 
+    #e5e5e5 40%, 
+    #e5e5e5 40%, 
+    #e5e5e5 60%, 
+    #fca331 60%, 
+    #fca331 80%, 
+    #fca331 80%,
+    #fca331 100%
+    );
     width: 0;
     height: 100%;
     position: fixed;
@@ -66,12 +77,15 @@
     overflow-x: hidden;
     padding-top: 0;
     transition: 0.5s;
+    overflow-y: hidden;
 }
 #close-menu{
     font-size: 35px;
     background: transparent;
-    margin-bottom: 120px;
-    margin-right: 120px;
+    padding-top: 20px;
+    margin-bottom: 150px;
+    margin-right: 165px;
+    color: #fff;
 }
 .account-data{
     margin-bottom: 340px;
@@ -87,6 +101,16 @@
     height: 40px;
     transition: 0.5 ease;
     background: white;
-    margin-left: 700px;
+    margin-left: 615px;
     border-radius: 6px;
+}
+.account-data{
+    padding-top: 60px;
+    margin-right: 200px;
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.call-data{
+    padding: 12px;
 }
