@@ -183,8 +183,20 @@
     width: 236px;
     height: 338px;
     background: #ba7ba1;
-    border-radius: 30px;
+    border-radius: 15px;
     margin: 22px;
+}
+#acc-prof{
+    width: 200px; 
+    height: 200px;
+    border-radius: 199px;
+}
+.phi-border{
+    width: 200px; 
+    height: 200px; 
+    background: floralwhite; 
+    border-radius: 199px; 
+    transition: 0.5s;
 }
 @media screen and (max-width:960px) {
     .logo{
@@ -247,5 +259,31 @@
     .call-data{
         font-size: 12px;
         padding: 7px;
+    }
+    .promotion .promo-table{
+        width: 456px;
+        height: 137px;
+        background: #ba7ba1;
+        border-radius: 14px;
+    }
+    .proc{
+        width: 100px;
+        height: 134px;
+        background: #ba7ba1;
+        border-radius: 15px;
+        margin: 9px;
+        margin-top: 10px;
+    }
+    #acc-prof{
+        width: 130px;
+        height: 130px;
+        border-radius: 129px;
+    }
+    .phi-border{
+        width: 130px;
+        height: 130px;
+        border-radius: 129px;
+        margin-bottom: 20px;
+        transition: 0.8s;
     }
 }
