@@ -11,11 +11,13 @@ function openSlideMenu(){
     document.getElementById('navbar-menu').style.width = '300px';
     //document.getElementById('spacer').style.transition = '0.5s';
     document.getElementById('spacer').style.marginLeft = '240px';
+    document.getElementById('phi-border').style.marginLeft = '35px';
 }
 function closeSlideMenu(){
     document.getElementById('navbar-menu').style.width = '0px';
     //document.getElementById('spacer').style.transition = '0.5s';
     document.getElementById('spacer').style.marginLeft = '40px';
+    document.getElementById('phi-border').style.marginLeft = '-70px';
 }
 function showResult(){
 
