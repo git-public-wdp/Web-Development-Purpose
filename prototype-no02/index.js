@@ -19,6 +19,9 @@ function closeSlideMenu(){
     document.getElementById('spacer').style.marginLeft = '40px';
     document.getElementById('phi-border').style.marginLeft = '-70px';
 }
+function popUpPayment(){
+    document.getElementById('pop-up').style.visibility = 'visible';
+}
 function showResult(){
 
 }

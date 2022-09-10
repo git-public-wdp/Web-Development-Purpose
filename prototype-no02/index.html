@@ -26,34 +26,34 @@
                 <input id="searchInput" placeholder="Cari makanan"  autocomplete="off" name="searchInput" onkeyup="" style=""/>
                 <input type="hidden" name="searchSite" value="1" style="background-color:#000;">
                 <input id="searchButton" type="submit" value=""/>
-                <a href="#searchButton" class="sch-button" id="button" onclick="showResult()">
+                <a href="#" class="sch-button" id="button" onclick="showResult()">
                     <img id="sch-img" src="search.png" alt="" width="30px" height="30px">
                 </a>
             </div>
             <div class="chat" id="chat">
-                <a class="open-chat" href="#open-chat">
+                <a class="open-chat" href="#">
                     <img id="cht-img" src="contact.png" width="30"; height="25px" style="margin-left: 25px;">
                 </a>
                 <p id="p-text">Hubungi Pengirim</p>
             </div>
         </div>
         <div class="navbar-menu" id="navbar-menu">
-            <a href="#" class="menu-bars" id="close-menu" onclick="closeSlideMenu()">
-                <i class="fas fa-bars" id="bars"></i>
-            </a>
             <div class="account" id="account">
+                <a href="#" class="menu-bars" id="close-menu" onclick="closeSlideMenu()">
+                    <i class="fas fa-bars" id="bars"></i>
+                </a>
                 <div class="phi-border" id="phi-border" style="">
-                    <a href="#account" class="acc-link" id="acc-link">
+                    <a href="#" class="acc-link" id="acc-link">
                         <img id="acc-prof" src="acc-profile.png" alt="Profile" style="">
                     </a>
                 </div>
-                <div class="student-data" #a-data>
-                    <ul class="account-data" id="account-data" style="list-style: none; margin-top: 0px;">
-                        <li class="call-data" id="nama">Name:-</li>
-                        <li class="call-data" id="kelas">Class:-</li>
-                        <li class="call-data" id="num">Number:-</li>
-                    </ul>
-                </div>
+            </div>
+            <div class="student-data" #a-data>
+                <ul class="account-data" id="account-data" style="list-style: none; margin-top: 0px;">
+                    <li class="call-data" id="nama">Name:-</li>
+                    <li class="call-data" id="kelas">Class:-</li>
+                    <li class="call-data" id="num">Number:-</li>
+                </ul>
             </div>
         </div>
         <!--HOME-PAGE-->
@@ -61,28 +61,72 @@
             <div class="home-content" id="content">
                 <div class="promotion" id="promo">
                     <div class="promo-table" id="p-table">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <a href="#" class="act-button" id="bann-1" onclick="">
+                            <img src="" alt="">
+                        </a>
+                        <a href="#" class="act-button" id="bann-2" onclick="">
+                            <img src="" alt="">
+                        </a>
+                        <a href="#" class="act-button" id="bann-3" onclick="">
+                            <img src="" alt="">
+                        </a>
+                        <a href="#" class="act-button" id="bann-4" onclick="">
+                            <img src="" alt="">
+                        </a>
+                        <a href="#" class="act-button" id="bann-5" onclick="">
+                            <img src="" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="product-table" id="product-table" style="justify-content: center; align-items: center; width: 100%; height: fit-content; background: transparent; display: flex;">
                     <div class="product" id="product" style="justify-content: center; align-items: center; width: fit-content; height: fit-content;">
                         <div class="procline-1" id="procline-1" style="display: flex; width: 100%; height: fit-content;">
-                            <div class="proc" id="proc"></div>
-                            <div class="proc" id="proc"></div>
-                            <div class="proc" id="proc"></div>
-                            <div class="proc" id="proc"></div>
+                            <div class="proc">
+                                <a href="#p-box" class="act-button" id="prod-1" onclick="popUpPayment()">
+                                    <img src="sample.jfif" alt="" style="width: 236px; height: 338px; border-radius: 15px;">
+                                </a>
+                            </div>
+                            <div class="proc">
+                                <a href="#" class="act-button" id="prod-2" onclick="popUpPayment()">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
+                            <div class="proc">
+                                <a href="#" class="act-button" id="prod-3" onclick="popUpPayment()">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
+                            <div class="proc">
+                                <a href="#" class="act-button" id="prod-4" onclick="popUpPayment()">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
                         </div>
                         <div class="procline-2" id="procline-2" style="display: flex; width: 100%; height: fit-content;">
-                            <div class="proc" id="proc"></div>
-                            <div class="proc" id="proc"></div>
-                            <div class="proc" id="proc"></div>
-                            <div class="proc" id="proc"></div>
+                            <div class="proc">
+                                <a href="#" class="act-button" id="prod-5" onclick="popUpPayment()">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
+                            <div class="proc">
+                                <a href="#" class="act-button" id="prod-6" onclick="popUpPayment()">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
+                            <div class="proc">
+                                <a href="#" class="act-button" id="prod-7" onclick="popUpPayment()">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
+                            <div class="proc">
+                                <a href="#p-box" class="act-button" id="prod-8" onclick="popUpPayment()">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="pop-up" id="pop-up">
                 </div>
             </div>
             <div class="product-detail" id="product-detail">
@@ -95,14 +139,16 @@
                     <div class="log-screen-logo" id="log-logo"><img src="" alt=""></div>
                     <div class="l-table" id="l-table"></div>
                     <p></p>
-                </div>
                 <div class="sign-in" id="sign-in">
                     <div class="log-screen-logo" id="log-logo"><img src="" alt=""></div>
                     <div class="s-table" id="s-table"></div>
                     <p></p>
                 </div>
             </div>
-            <div class="navfx-blur" id="fx"></div>
+        </div>
+        <div class="pop-up" id="pop-up">
+            <div class="p-box" id="p-box">
+            </div>
         </div>
         <script src="index.js"></script>
     </body>
